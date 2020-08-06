@@ -3,6 +3,10 @@
 int main()
 {
     int h = 0, t = 0;
+    std::string name;
+    std::cout << "Who are you?" << std::endl;
+    std::cin >> name;
+    std::cout << "Hello, "<< name <<"!" << std::endl;
     std::cout << "Tossing a coin..." << std::endl;
     for(int i=0; i<3; i++)
     {
