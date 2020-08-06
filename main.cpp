@@ -21,11 +21,11 @@ int main()
     std::cout << "Heads: " << h << ", Tails: " << t << std::endl;
     if(t<h)
     {
-        std::cout << name << " won!" << std::endl;
+        std::cout  << "You won!" << std::endl;
     }
     else
     {
-        std::cout << name << " lost." << std::endl;
+        std::cout << "You lost." << std::endl;
     }
 
     return 0;
